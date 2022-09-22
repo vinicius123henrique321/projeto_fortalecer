@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Source+Serif+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #0f0000 16.2%, #e42727 80.8%);
+}
+
+
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #0f0000;
+}
+
+.cabeçalho-logo{
+    height: 120px;
+    border-radius: 50%;
+}
+
+.cabeçalho-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabeçalho-itens{
+    font-family: serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: beige;
+}
+
+.cabeçalho-itens:hover{
+    color: burlywood;
+}
+
+
+
+.conteudo{
+    margin-bottom: 100px;
+    border-top: 0.10px solid burlywood ;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/righteous/v13/1cXxaUPXBpj2rGoU7C9WhnGFucE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20çA0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    color: beige;
+    font-size: 800%;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/righteous/v13/1cXxaUPXBpj2rGoU7C9WhnGFucE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20çA0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    color: beige;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: beige;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #0f0000;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.35) ;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: burlywood;
+}
+
+.conteudo-principal-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%
+}
+
+
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.conteudo-secundario-titulo{
+    margin-top: 100px;
+    font-family: 'righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/righteous/v13/1cXxaUPXBpj2rGoU7C9WhnGFucE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20çA0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    color: beige;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.35);
+    border-top: 0.4px solid;
+    padding-top: 40px;
+}
+
+.conteudo-secundario-dicas{
+    font-family: 'righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/righteous/v13/1cXxaUPXBpj2rGoU7C9WhnGFucE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20çA0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    color: beige;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.35);
+}
+
+.conteudo-secundario-p1{
+    font-family: 'righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/righteous/v13/1cXxaUPXBpj2rGoU7C9WhnGFucE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20çA0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    color: beige;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.35);
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: #0f0000;
+}
+
+.footer-img{
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 120px;
+}
