@@ -12,7 +12,7 @@ body{
     background: linear-gradient(68.15deg, #0f0000 16.2%, #e42727 80.8%);
 }
 
-
+ /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .cabeçalho{
     display: flex;
@@ -44,7 +44,7 @@ body{
     color: burlywood;
 }
 
-
+ /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .conteudo{
     margin-bottom: 100px;
@@ -109,7 +109,7 @@ body{
     border-radius: 50%
 }
 
-
+ /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .conteudo-secundario{
     display: flex;
@@ -159,6 +159,7 @@ body{
     display: flex;
     align-items: center;
     background-color: #0f0000;
+    margin-top: 2rem;
 }
 
 .footer-img{
@@ -171,3 +172,12 @@ body{
 .carouselslide{
     border-radius: 20%;
 }
+
+ /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} 

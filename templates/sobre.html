@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo sobre skate</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <header class="cabeçalho">
+        <img class="cabeçalho-logo" src="{{url_for('static', filename='arte/logo fortalecer.jpg')}}" alt="logo">
+        <nav class="cabeçalho-menu">
+            <a class="cabeçalho-itens" href="/home" >HOME</a>
+            <a class="cabeçalho-itens" href="/sobre">SOBRE NÓS</a>
+            <a class="cabeçalho-itens" href="/faleconosco">CONTATO</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="cards">
+          <div class="card" style="width: 30rem; margin-top: 2rem;">
+            <img src="{{url_for('static', filename='arte/skti3.png')}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">A palavra “skate” é um verbo na língua inglesa e significa se mover ou fazer um movimento em uma superfície. Originalmente, o termo era utilizado para designar patins de gelo ou patins com roda.
+                Quando o skate como conhecemos hoje surgiu, foi denominado skateboard, algo como patins em uma prancha. Com o tempo, o equipamento se tornou tão popular que virou apenas skate.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 30rem; margin-top: 2rem;">
+            <img src="{{url_for('static', filename='arte/skti.png')}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"></p>
+            </div>
+          </div>
+          <div class="card" style="width: 30rem; margin-top: 2rem;">
+            <img src="{{url_for('static', filename='arte/skti2.jpeg')}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <img class="footer-img" src="{{url_for('static', filename='arte/logo fortalecer.jpg')}}" alt="logofooter">
+    </footer>
+    
+</body>
+</html>
