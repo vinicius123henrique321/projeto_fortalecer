@@ -16,9 +16,5 @@ def conosco():
   return render_template("faleconosco.html")
 
 
-
-
-
-
 if __name__ == '__main__':
   app.run(debug=True)
